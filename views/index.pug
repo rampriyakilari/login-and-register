@@ -4,20 +4,11 @@ html(lang="en")
         meta(charset="UTF-8")
         meta(http-equiv="X-UA-Compatible", content="IE=edge")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        title Login
-        style
+        title index page
+        style 
             include ./style.css
-    body
-        div(class='container')
-            h1 Login form
-            br
-            form(action="/Login" method="post" align="center")
-                label(for="username") username
-                input(type="text" name="username")
-                br
-                br
-                label(for="password") password
-                input(type="password" name="password")
-                br
-                br
-                input(type="submit" name="Login" value="Login")
+    body 
+        div(class='header')
+            h1 Login and Registration APP 
+            a(href="/login") Login 
+            a(href="/register") Register
